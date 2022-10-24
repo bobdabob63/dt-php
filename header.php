@@ -26,16 +26,23 @@
       background-color: #04AA6D;
       color: white;
     }
+
+    table, th, td {
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 5px 5px;
+    }
 </style>
 <script src="./among.js"></script>
 
 <div class="topnav">
-  <a class="active" href="index.php">Home</a>
-  <a href="news.php">News</a>
-  <a href="contact.php">Contact</a>
-  <a href="about.php">About</a>
-  <a href="echo.php">Echo</a>
-  <a href="test.php">Test</a>
-  <a href="if_else.php">Brain</a>
-  <a href="mongo.php">MongoDB</a>
+    <a class="active" href="index.php">Home</a>
+    <a href="news.php">News</a>
+    <a href="contact.php">Contact</a>
+    <a href="about.php">About</a>
+    <a href="echo.php">Echo</a>
+    <a href="test.php">Test</a>
+    <a href="if_else.php">Brain</a>
+    <a href="mongo.php">MongoDB</a>
+    <a href="loop.php">Loop</a>
 </div>
