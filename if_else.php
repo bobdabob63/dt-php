@@ -6,8 +6,8 @@ include_once "header.php"
 
 <div style="padding-left: 16px">
 	<h2>IF THEN ELSE + Switch</h2>
-	<form id = "grade_form" action="/0/dt-php/getGrade.php" method="post" target="_self">
-    	Grade: <input type="text" name="grade"><br>
+	<form id = "grade_form" action="./getGrade.php" method="post" target="_self">
+    	Grade: <input type="number" name="grade"><br>
     	<input type="submit" value="Submit">
 	</form>
 </div>
