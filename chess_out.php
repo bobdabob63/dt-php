@@ -5,8 +5,10 @@ include_once "header.php";
     $height = $_REQUEST["height"];
     $light = $_REQUEST["light"];
     $dark = $_REQUEST["dark"];
-    $svg = "<svg width='%s' height='%s'>";
-    echo sprintf($svg, $width * 8, $height * 8, $width * 8, $height * 8);
+    $xpos = $_REQUEST["xpos"];
+    $ypos = $_REQUEST["ypos"];
+    $svg = "<div style='position:relative; left: %s; top: %s'><svg width='%s' height='%s'>";
+    echo sprintf($svg, $xpos, $ypos, $width * 8, $height * 8);
 
     $format = "<rect
     x='%s' 
@@ -26,6 +28,6 @@ include_once "header.php";
         }
 
     }
-    echo "<svg/>";
+    echo "<svg/></div>";
 
 include_once "footer.php";
